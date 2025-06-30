@@ -1,7 +1,6 @@
 # VulnScanner 🔍
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/github/license/MTS-27/VulnScanner)
 ![Repo Size](https://img.shields.io/github/repo-size/MTS-27/VulnScanner)
 ![Last Commit](https://img.shields.io/github/last-commit/MTS-27/VulnScanner)
 [![Star this repo](https://img.shields.io/github/stars/MTS-27/VulnScanner?style=social)](https://github.com/MTS-27/VulnScanner)
