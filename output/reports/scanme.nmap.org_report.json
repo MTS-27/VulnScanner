@@ -1,0 +1,18 @@
+{
+  "target": "scanme.nmap.org",
+  "open_ports": {
+    "22": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13",
+    "80": "No banner"
+  },
+  "http_headers": {
+    "Date": "Mon, 30 Jun 2025 18:01:21 GMT",
+    "Server": "Apache/2.4.7 (Ubuntu)",
+    "Accept-Ranges": "bytes",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "Content-Length": "2068",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive",
+    "Content-Type": "text/html"
+  }
+}
