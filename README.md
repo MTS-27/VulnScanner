@@ -1,25 +1,44 @@
-# VulnScanner 🔍
+# VulnScanner 🔍 #
 
-**VulnScanner** is a lightweight, Python-based vulnerability scanner that:
-- Scans common ports on a target IP/domain
-- Grabs banners from open ports (e.g., SSH, FTP, HTTP)
-- Fetches HTTP headers from live web servers
-- Saves scan results in clean JSON format
+**⚠️ Disclaimer**
 
----
+This tool is for educational and ethical hacking use only.
+⚠️ Always get permission before scanning systems you don’t own.
 
-## 💡 Features
-
-- 🔎 Open port detection (e.g. 22, 80, 443...)
-- 📡 Banner grabbing (reveals server info)
-- 🌐 HTTP header inspection (via requests)
-- 📁 Output reports as JSON files
+**VulnScanner** is a simple Python-based vulnerability scanner that:
+- Scans common ports (e.g. 22, 80, 443)
+- Grabs service banners
+- Fetches HTTP headers
+- Saves scan results in JSON format
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Features
 
-### 1. Clone the repo:
+- Open port detection
+- Banner grabbing
+- HTTP header analysis
+- JSON report generation
+
+---
+
+## 🛠 How to Use
+
 ```bash
 git clone https://github.com/MTS-27/VulnScanner.git
 cd VulnScanner
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python scanner.py
+```
+## When prompted, enter a domain or IP like:
+```bash
+scanme.nmap.org
+```
+
+Built with 💻 by MTS-27
+Feel free to fork, star, or contribute!
+
+
+
